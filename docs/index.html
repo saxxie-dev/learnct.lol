@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta http-equiv="content-security-policy" content="">
-	<link rel="modulepreload" href="/_app/immutable/start-c497f7a5.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/index-714d015a.js">
-	<link rel="modulepreload" href="/_app/immutable/layout.svelte-08a8465c.js">
-	<link rel="modulepreload" href="/_app/immutable/pages/index.svelte-e564d91c.js">
-	</head>
-	<body>
-		<div>
 
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="./favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="content-security-policy" content="">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.d08c7ac3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.6253329d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.ee2b138f.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.fc6ffd6e.js">
+</head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<body class="bg-stone-200 dark:bg-slate-900 
+font-serif text-stone-800 dark:text-slate-200
+[background-image:radial-gradient(circle,#d6d3d1_1px,rgba(0,0,0,0)_1px)]
+dark:[background-image:radial-gradient(circle,#1e293b_2px,rgba(0,0,0,0)_2px)]
+" style="background-size: 40px 40px;">
+	<div class="h-screen">
+			<script>
+				{
+					__sveltekit_txdz33 = {
+						env: {},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
 
+					Promise.all([
+						import("./_app/immutable/entry/start.d08c7ac3.js"),
+						import("./_app/immutable/entry/app.fc6ffd6e.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_txdz33.element);
+					});
+				}
+			</script>
+		</div>
+</body>
 
-		<script type="module" data-sveltekit-hydrate="1oibf46">
-		import { start } from "/_app/immutable/start-c497f7a5.js";
-		start({
-			target: document.querySelector('[data-sveltekit-hydrate="1oibf46"]').parentNode,
-			paths: {"base":"","assets":""},
-			session: {},
-			route: true,
-			spa: false,
-			trailing_slash: "never",
-			hydrate: {
-				status: 200,
-				error: null,
-				nodes: [0, 2],
-				params: {},
-				routeId: ""
-			}
-		});
-	</script></div>
-	</body>
 </html>

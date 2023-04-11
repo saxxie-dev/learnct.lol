@@ -67,16 +67,13 @@ export const jobMap: Record<string, Book> = {
     grUrl: "https://www.goodreads.com/book/show/45913254-categories-for-quantum-theory",
     amznUrl: "https://www.amazon.com/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613",
   },
-  "Music Theorist": {
+  "Musician": {
     name: "Cool Math for Hot Music: A First Introduction to Mathematics for Music Theorists",
     author: "Guerino Mazzola, Maria Mannone, Yan Pang",
     stars: 3.8,
     grUrl: "https://www.goodreads.com/book/show/33638876-cool-math-for-hot-music",
     amznUrl: "https://www.amazon.com/Cool-Math-for-Hot-Music-A-First-Introduction-to-Mathematics-for-Music-Theorists-Computational-Music-Science/dp/3319429353",
-  }
-};
-
-export const bonusMap: Record<string, Book> = {
+  },
   "Physicist": {
     name: "Categories for the Practising Physicist",
     author: "Bob Coecke, Eric Paquette",
@@ -112,7 +109,7 @@ export const bonusMap: Record<string, Book> = {
     author: "James Cheney",
     pdfUrl: "https://homepages.inf.ed.ac.uk/jcheney/presentations/ct4d1.pdf",
   },
-  "Linear Logician": {
+  "Logician": {
     name: "Category Theory for Linear Logicians",
     author: "Richard Blute, Philip Scott",
     pdfUrl: "https://www.site.uottawa.ca/~phil/papers/catsurv.web.pdf",

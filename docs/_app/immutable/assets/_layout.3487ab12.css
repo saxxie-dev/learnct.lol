@@ -470,6 +470,18 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.top-0 {
+  top: 0px;
+}
 .m-auto {
   margin: auto;
 }
@@ -529,9 +541,6 @@ video {
 }
 .gap-12 {
   gap: 3rem;
-}
-.gap-4 {
-  gap: 1rem;
 }
 .gap-8 {
   gap: 2rem;
@@ -642,6 +651,9 @@ video {
 }
 .pt-12 {
   padding-top: 3rem;
+}
+.pt-8 {
+  padding-top: 2rem;
 }
 .text-left {
   text-align: left;

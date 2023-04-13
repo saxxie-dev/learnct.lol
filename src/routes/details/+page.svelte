@@ -3,8 +3,13 @@
   const buttonStyle = `text-center p-1 flex-grow
     hover:dark:bg-slate-900 hover:bg-stone-50 transition-all`
 </script>
-<section class="flex-grow flex flex-col items-center gap-4 font-sans p-2">
-  <div class="w-full max-w-3xl py-8 px-8">
+
+<svelte:head>
+    <title>Category Theory Resources</title> 
+</svelte:head>
+
+<section class="flex-grow flex flex-col items-center gap-8 font-sans p-2">
+  <div class="w-full max-w-3xl pt-8 px-8">
     <h1 class="text-4xl">
       Category Theory for <span class="underline">Everyone</span>
     </h1>

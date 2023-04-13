@@ -1,4 +1,4 @@
-const e={Mathematician:{name:"Categories for the Working Mathematician",author:"Saunders Mac Lane",comment:`This book is a true classic by Category Theory's "co-founder", which introduced Category Theory to the world stage.
+const e={Mathematician:{name:"Categories for the Working Mathematician",author:"Saunders Mac Lane",comment:`This book is a true classic by Category Theory's inventor, which introduced Category Theory to the world stage.
       Best suited for experienced pure mathematicians looking to generalize their understanding of 
       different fields of mathematics.`,stars:4.37,grUrl:"https://www.goodreads.com/book/show/1088482.Categories_for_the_Working_Mathematician",amznUrl:"https://amzn.to/3o0ucQa"},Programmer:{name:"Category Theory for Programmers",author:"Bartosz Milewski",comment:`A highly regarded introduction to Category Theory for programmers. It is 
       especially thorough in relating Category Theory to its computational interpretation as a basis for

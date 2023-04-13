@@ -13,7 +13,7 @@ export const jobMap: Record<string, Book> = {
   "Mathematician": {
     name: "Categories for the Working Mathematician",
     author: "Saunders Mac Lane",
-    comment: `This book is a true classic by Category Theory's "co-founder", which introduced Category Theory to the world stage.
+    comment: `This book is a true classic by Category Theory's inventor, which introduced Category Theory to the world stage.
       Best suited for experienced pure mathematicians looking to generalize their understanding of 
       different fields of mathematics.`,
     stars: 4.37,

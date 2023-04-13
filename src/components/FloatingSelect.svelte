@@ -1,11 +1,13 @@
 <script lang="ts">
   import { jobMap } from '../data/books.ts';
-  import { onMount } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
 
   let options = Object.keys(jobMap);
 
+  let isRunning = true;
   let i = -1;
   const fn = () => {
+    if(!isRunning){return;}
     const oi = i;
     i = (i + 1) % options.length;
     if(oi > i){
@@ -16,12 +18,13 @@
     document
       .getElementById(`scrollPos-${options[i]}`)
       ?.scrollIntoView({behavior: 'smooth', inline: 'center'});
-    setTimeout(fn, 3000);
+      setTimeout(fn, 3000);
   };
 
   $: currentJob = options[i];
 
   onMount(() => setTimeout(fn));
+  onDestroy(() => { isRunning=false; })
 
   const pluralize = (s: string) => {
     const finalLetter = s[s.length-1];

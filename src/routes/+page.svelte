@@ -1,6 +1,9 @@
 <script lang="ts">
   import FloatingSelect from '../components/FloatingSelect.svelte';
 </script>
+<svelte:head>
+    <title>Learn Category Theory!</title> 
+</svelte:head>
 
 <section class="m-auto text-center flex-grow
   leading-loose md:leading-relaxed lg:leading-relaxed

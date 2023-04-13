@@ -4,7 +4,7 @@
     hover:dark:bg-slate-900 hover:bg-stone-50 transition-all`
 </script>
 <section class="flex-grow flex flex-col items-center gap-4 font-sans p-2">
-  <div class="w-full max-w-2xl py-8">
+  <div class="w-full max-w-3xl py-8 px-8">
     <h1 class="text-4xl">
       Category Theory for <span class="underline">Everyone</span>
     </h1>
@@ -22,7 +22,7 @@
         someone has already written about category theory in a way that resonates with your existing knowledge.
       </p>
       <p>
-        What follows is an extremely loosely curated list of these domain-specific <i>Category Theory for X</i> -style 
+        This page is an extremely loosely curated list of these domain-specific <i>Category Theory for X</i> -style 
         books, papers, and presentations.
       </p>
     </div>
@@ -52,6 +52,10 @@
             </a>
           {/if}
         </div>
+      </div>
+      <div class="px-8 pb-8 pt-0">
+        <p class="pb-2">For a <b>{job}</b> looking to learn about Categories.</p>
+        <p>{jobMap[job].comment ??""}</p>
       </div>
       <footer class="bg-stone-300 dark:bg-slate-800 divide-x
          dark:divide-slate-900 divide-stone-50 flex

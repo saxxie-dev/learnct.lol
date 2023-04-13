@@ -58,23 +58,23 @@
 </style>
 
 <div class="w-screen snap-x snap-mandatory flex gap-12 overflow-hidden myContainer
-  dark:text-slate-400 text-stone-700 lg:leading-none" >
+  dark:text-slate-400 text-stone-600 lg:leading-none" >
   {#each options as job}
     <div id={`prevScroll-${job}`} class={`
       ${baseJobStyle}
       ${job === currentJob ? activeJobStyle : inactiveJobStyle}`}>
-      <a href={jobMap[job].amznUrl}>{pluralize(job)}</a></div>
+      <a href={`/details#${job}`}>{pluralize(job)}</a></div>
   {/each}
   {#each options as job}
     <div id={`scrollPos-${job}`} class={`
         ${baseJobStyle}
         ${job === currentJob ? activeJobStyle : inactiveJobStyle}`}>
       <a 
-        href={jobMap[job].amznUrl}
+        href={`/details#${job}`}
         title={jobMap[job].name}>{pluralize(job)}</a></div>
   {/each}
   {#each options as job}
     <div class={baseJobStyle + inactiveJobStyle}>
-      <a href={jobMap[job].amznUrl}>{pluralize(job)}</a></div>
+      <a href={`/details#${job}`}>{pluralize(job)}</a></div>
   {/each}
 </div>

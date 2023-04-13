@@ -16,9 +16,10 @@
   <FloatingSelect/>
   <div class="mt-4 leading-none text-lg md:text-xl font-mono
     dark:[text-shadow:_#334155_0px_0px_4px]
-    [text-shadow:_##78716c_0px_0px_4px]">
-    <a class=" text-stone-600 dark:text-slate-500
-      hover:text-stone-700 hover:dark:text-slate-400 
+    [text-shadow:_#78716c_0px_0px_4px]">
+    <a href={`/details`} 
+      class=" text-stone-500 dark:text-slate-500
+      hover:text-stone-600 hover:dark:text-slate-400 
       hover:underline cursor-pointer">
       and more⏵
     </a>

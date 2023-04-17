@@ -2,6 +2,9 @@
 A cute compilation of "Introduction to category theory for X"-type texts. Mainly books, but couple others in there as well.
 Quality of said texts was not considered, only how well they matched the criteria and had a distinct profession associated with them.
 
+## Contributing
+Found a book or paper that matches the theme but isn't listed yet? Open an issue and I'll get around to it, probably.
+
 ## Developing
 
 To start a development server:

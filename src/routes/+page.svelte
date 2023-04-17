@@ -1,9 +1,11 @@
 <script lang="ts">
   import FloatingSelect from '../components/FloatingSelect.svelte';
+  document.body.classList.add("overflow-hidden");
 </script>
 <svelte:head>
     <title>Learn Category Theory!</title> 
 </svelte:head>
+
 
 <section class="m-auto text-center flex-grow
   leading-loose md:leading-relaxed lg:leading-relaxed
@@ -24,7 +26,7 @@
       class=" text-stone-500 dark:text-slate-500
       hover:text-stone-600 hover:dark:text-slate-400 
       hover:underline cursor-pointer">
-      and more⏵
+      and more ⏵
     </a>
   </div>
 </section>

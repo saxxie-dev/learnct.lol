@@ -67,10 +67,10 @@
          border-t cursor-pointer
           border-t-stone-300 dark:border-t-slate-800">
         {#if jobMap[job].amznUrl}
-          <a href={jobMap[job].amznUrl} class={buttonStyle}>Find it on Amazon⏵</a>
+          <a href={jobMap[job].amznUrl} class={buttonStyle}>Find it on Amazon ⏵</a>
         {/if}
         {#if jobMap[job].pdfUrl}
-          <a href={jobMap[job].pdfUrl} class={buttonStyle}>Free PDF⏵</a>
+          <a href={jobMap[job].pdfUrl} class={buttonStyle}>Free PDF ⏵</a>
         {/if}
     </footer>
     </section>

@@ -1,9 +1,17 @@
 <script lang="ts">
   import FloatingSelect from '../components/FloatingSelect.svelte';
-  document.body.classList.add("overflow-hidden");
 </script>
 <svelte:head>
-    <title>Learn Category Theory!</title> 
+    <title>Learn Category Theory!</title>
+    <!-- Evil hack, necessary because mobile browsers have garbage y-sizing -->
+    <style>
+      body {
+        overflow:hidden;
+      }
+      #sveltekit-body-container {
+        overflow:hidden;
+      }
+    </style>
 </svelte:head>
 
 

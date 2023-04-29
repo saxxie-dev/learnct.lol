@@ -1,5 +1,6 @@
 <script lang="ts">
   import FloatingSelect from '../components/FloatingSelect.svelte';
+  import Triangle from '../components/Triangle.svelte';
 </script>
 <svelte:head>
     <title>Learn Category Theory!</title>
@@ -34,7 +35,7 @@
       class=" text-stone-500 dark:text-slate-500
       hover:text-stone-600 hover:dark:text-slate-400 
       hover:underline cursor-pointer">
-      and more ⏵
+      and more<Triangle/>
     </a>
   </div>
 </section>

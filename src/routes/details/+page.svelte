@@ -1,5 +1,6 @@
 <script lang="ts">
   import { jobMap } from '../../data/books.ts';
+  import Triangle from '../../components/Triangle.svelte';
   const buttonStyle = `text-center p-1 flex-grow
     hover:dark:bg-slate-900 hover:bg-stone-50 transition-all`
 </script>
@@ -67,10 +68,10 @@
          border-t cursor-pointer
           border-t-stone-300 dark:border-t-slate-800">
         {#if jobMap[job].amznUrl}
-          <a href={jobMap[job].amznUrl} class={buttonStyle}>Find it on Amazon ⏵</a>
+          <a href={jobMap[job].amznUrl} class={buttonStyle}>Find it on Amazon <Triangle/></a>
         {/if}
         {#if jobMap[job].pdfUrl}
-          <a href={jobMap[job].pdfUrl} class={buttonStyle}>Free PDF ⏵</a>
+          <a href={jobMap[job].pdfUrl} class={buttonStyle}>Free PDF <Triangle/></a>
         {/if}
     </footer>
     </section>
